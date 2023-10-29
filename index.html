@@ -420,7 +420,7 @@
             <input
               class="estimate-input"
               name="user-tel"
-              type="text"
+              type="number"
               placeholder="Загрузить файл"
             />
           </label>
@@ -436,6 +436,52 @@
           </ul>
           <button type="button" class="estimate-btn">Рассчитать смету</button>
         </form>
+      </section>
+      <section class="contact">
+        <h2 class="contact-title">Связаться с нами</h2>
+        <form class="contact-form">
+          <label class="contact-label">
+            Имя
+            <input
+              type="text"
+              name="user-name"
+              class="contact-input"
+              placeholder="Введите имя"
+            />
+          </label>
+          <label class="contact-label">
+            Номер телефона
+            <input
+              type="number"
+              name="user-tel"
+              class="contact-input"
+              placeholder="+7 (---) --- -- --"
+            />
+          </label>
+          <label class="contact-label">
+            Текст сообщения (необязательно)
+            <textarea
+              name="user-coment"
+              class="contact-coment"
+              cols="30"
+              rows="10"
+              placeholder="Введите текст"
+            ></textarea>
+          </label>
+          <button class="contact-btn">Отправить</button>
+        </form>
+        <p class="contact-text">
+          Напишите нам, если у Вас есть вопросы. Мы ответим Вам в самое
+          ближайшее время (в течении 1 часа). Также вы можете описать в
+          сообщении суть вопроса, это поможет нам более оперативно справиться с
+          вашей проблемой
+        </p>
+        <p class="contact-text">
+          Нажимая на кнопку, Вы принимаете
+          <a href="" class="contact-link">Положение</a> и
+          <a href="" class="contact-link">Согласие</a> на обработку персональных
+          данных
+        </p>
       </section>
     </main>
   </body>
