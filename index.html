@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>НОЭКС</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
@@ -281,7 +290,7 @@
           <h2 hidden class="about-title">О нас</h2>
           <ul class="about-list">
             <li class="about-item">
-              <h3 class="about-title">О нас</h3>
+              <h3 class="about-subtitle">О нас</h3>
               <p class="about-desc">
                 Мы предпочитаем работать с Вами, а не для Вас. Узнайте о наших
                 преимуществах и этапах работы
@@ -289,7 +298,7 @@
               <a href="" class="about-link">Подробнее</a>
             </li>
             <li class="about-item">
-              <h3 class="about-title">Услуги</h3>
+              <h3 class="about-subtitle">Услуги</h3>
               <p class="about-desc">
                 Мы предлагаем полный спектр услуг в области инженерных
                 изысканий. Узнайте подробнее о каждой из услуг
@@ -301,7 +310,7 @@
       </section>
       <section class="goals">
         <div class="container">
-          <h2 class="goals">ЦЕЛИ И ЗАДАЧИ ИНЖЕНЕРНЫХ ИЗЫСКАНИЙ</h2>
+          <h2 class="goals-title">ЦЕЛИ И ЗАДАЧИ ИНЖЕНЕРНЫХ ИЗЫСКАНИЙ</h2>
           <ul class="goals-list">
             <li class="goals-item">
               <h3 class="goals-subtitle">Цель</h3>
@@ -406,35 +415,35 @@
           <ul class="question-list">
             <li class="question-item">
               <img src="./img/plus.png" alt="plus" class="question-plus" />
-              <h4 class="question-subtitle">
+              <h4 class="question-header">
                 Сколько вы работаете в этой области?
               </h4>
             </li>
             <li class="question-item">
               <img src="./img/plus.png" alt="plus" class="question-plus" />
-              <h4 class="question-subtitle">Вы работаете по всей России?</h4>
+              <h4 class="question-header">Вы работаете по всей России?</h4>
             </li>
             <li class="question-item">
               <img src="./img/plus.png" alt="plus" class="question-plus" />
-              <h4 class="question-subtitle">
+              <h4 class="question-header">
                 Какие услуги в плане инженерных изысканий Вы оказываете?
               </h4>
             </li>
             <li class="question-item">
               <img src="./img/plus.png" alt="plus" class="question-plus" />
-              <h4 class="question-subtitle">Есть ли у Вас прайс-лист?</h4>
+              <h4 class="question-header">Есть ли у Вас прайс-лист?</h4>
             </li>
             <li class="question-item">
               <img src="./img/plus.png" alt="plus" class="question-plus" />
-              <h4 class="question-subtitle">Как оценивается время работ?</h4>
+              <h4 class="question-header">Как оценивается время работ?</h4>
             </li>
             <li class="question-item">
               <img src="./img/plus.png" alt="plus" class="question-plus" />
-              <h4 class="question-subtitle">Есть ли у Вас вакансии?</h4>
+              <h4 class="question-header">Есть ли у Вас вакансии?</h4>
             </li>
             <li class="question-item">
               <img src="./img/plus.png" alt="plus" class="question-plus" />
-              <h4 class="question-subtitle">Где расположен Ваш офис?</h4>
+              <h4 class="question-header">Где расположен Ваш офис?</h4>
             </li>
           </ul>
         </div>
@@ -453,18 +462,10 @@
                 placeholder="+7 (---) --- -- --"
               />
             </label>
-            <label class="estimate-label">
-              <p class="estimate-text">
-                Загрузите техническое задание (если есть)
-              </p>
-              <p class="estimate-text">DOC, DOCX, TXT, OFC</p>
-              <input
-                class="estimate-input"
-                name="user-tel"
-                type="number"
-                placeholder="Загрузить файл"
-              />
-            </label>
+            <p class="estimate-text">
+              Загрузите техническое задание (если есть)
+            </p>
+            <p class="estimate-text">DOC, DOCX, TXT, OFC</p>
             <button class="estimate-download" type="button">
               <img src="./img/dowload.png" alt="dowload" />
               <p class="estimate-text">Загрузить файл</p>
@@ -537,7 +538,13 @@
     <footer class="footer">
       <div class="container">
         <a href="./index.html" class="footer-logo">
-          <img src="./img/letter-n.png" alt="letter N" class="footer-img" />
+          <img
+            width="24"
+            height="49"
+            src="./img/letter-n.png"
+            alt="letter N"
+            class="footer-img"
+          />
           <p class="footer-text">НОЭКС</p>
         </a>
         <p class="footer-desc">Инженерные изыскания в строительстве</p>

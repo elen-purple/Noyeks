@@ -1,0 +1,528 @@
+:root {
+  --white: #f2f2f2;
+  --white-alifa: rgba(255, 255, 255, 0.5);
+  --white-alifa-alifa: rgba(255, 255, 255, 0.2);
+  --light-grey: #e5e5e5;
+  --grey: #bbbcbc;
+  --yellow: #dfd1a7;
+  --green: #a7c186;
+  --black: #0a090d;
+  --dark-grey: #393939;
+}
+
+body {
+  background-color: var(--black);
+}
+
+.container {
+}
+
+.header {
+}
+
+.header-logo {
+}
+
+.header-img {
+}
+
+.header-text {
+  color: var(--white);
+}
+
+.header-nav {
+}
+
+.header-list {
+}
+
+.header-item {
+}
+
+.header-link {
+  color: var(--light-grey);
+}
+
+.header-tel {
+}
+
+.header-icon {
+}
+
+.header-num {
+  color: var(--light-grey);
+}
+
+.main {
+}
+
+.hero {
+}
+
+.hero-title {
+  color: var(--white);
+}
+
+.hero-info {
+  color: var(--grey);
+}
+
+.hero-list {
+}
+
+.hero-item {
+}
+
+.hero-link {
+  color: var(--black);
+}
+
+.hero-item:first-child .hero-link {
+  background-color: var(--green);
+}
+
+.hero-item:last-child .hero-link {
+  background-color: var(--yellow);
+}
+
+.hero-desc {
+  color: var(--yellow);
+}
+
+.survey {
+}
+
+.survey-title {
+  color: var(--white);
+}
+
+.survey-subtitle {
+  color: var(--yellow);
+}
+
+.survey-descs {
+}
+
+.survey-desc {
+  color: var(--light-grey);
+}
+
+.survey-link {
+  color: var(--yellow);
+}
+
+.kinds {
+}
+
+.kinds-title {
+  color: var(--white);
+}
+
+.kinds-subtitle {
+  color: var(--yellow);
+}
+
+.kinds-list {
+}
+
+.kinds-item {
+}
+
+.kinds-img {
+}
+
+.kinds-header {
+  color: var(--white);
+}
+
+.kinds-desc {
+  color: var(--light-grey);
+}
+
+.kinds-link {
+  color: var(--yellow);
+}
+
+.quality {
+}
+
+.quality-title {
+  color: var(--white);
+}
+
+.quality-desc {
+  color: var(--light-grey);
+}
+
+.quality-info {
+  color: var(--white-alifa);
+}
+
+.quality-num {
+  color: var(--white);
+}
+
+.quality-line {
+  background-color: var(--white-alifa-alifa);
+}
+
+.quality-list {
+}
+
+.quality-item {
+}
+
+.quality-btn {
+  color: var(--white-alifa);
+}
+
+.quality-btn {
+  color: var(--white);
+}
+
+.quality-projs {
+}
+
+.quality-proj {
+}
+
+.quality-img {
+}
+
+.quality-subtitle {
+  color: var(--white);
+}
+
+.quality-year {
+  color: var(--white-alifa);
+}
+
+.quality-underline {
+  background-color: var(--white-alifa-alifa);
+}
+
+.quality-link {
+  color: var(--yellow);
+}
+
+.order {
+}
+
+.order-title {
+  color: var(--white);
+}
+
+.order-subtitle {
+  color: var(--yellow);
+}
+
+.order-list {
+}
+
+.order-item {
+  color: var(--light-grey);
+}
+
+.how {
+}
+
+.how-title {
+  color: var(--white);
+}
+
+.how-list {
+}
+
+.how-item {
+}
+
+.how-button {
+  color: var(--white-alifa);
+}
+
+.how-button:hover {
+  color: var(--yellow);
+}
+
+.how-num {
+  border: var(--white-alifa) solid 1px;
+  border-radius: 50%;
+}
+
+.how-num:hover {
+  border: var(--yellow) solid 1px;
+  border-radius: 50%;
+}
+
+.how-text {
+}
+
+.how-subtitle {
+  color: var(--light-grey);
+}
+
+.how-info {
+  color: var(--light-grey);
+}
+
+.about {
+}
+
+.about-title {
+}
+
+.about-list {
+}
+
+.about-item {
+}
+
+.about-subtitle {
+  color: var(--white);
+}
+
+.about-desc {
+  color: var(--light-grey);
+}
+
+.about-link {
+  color: var(--yellow);
+}
+
+.goals {
+}
+
+.goals-title {
+  color: var(--white);
+}
+
+.goals-list {
+}
+
+.goals-item {
+}
+
+.goals-subtitle {
+  color: var(--white);
+}
+
+.goals-desc {
+  color: var(--light-grey);
+}
+
+.necessity {
+}
+
+.necessity-title {
+  color: var(--white);
+}
+
+.necessity-img {
+}
+
+.necessity-desc {
+  color: var(--light-grey);
+  background-color: #1f1f1f;
+}
+
+.level {
+}
+
+.level-title {
+  color: var(--white);
+}
+
+.level-subtitle {
+  color: var(--yellow);
+}
+
+.level-list {
+}
+
+.level-item {
+}
+
+.level-header {
+  color: var(--light-grey);
+}
+
+.level-desc {
+  color: var(--light-grey);
+}
+
+.question {
+}
+
+.question-title {
+  color: var(--white);
+}
+
+.question-subtitle {
+  color: var(--yellow);
+}
+
+.question-list {
+}
+
+.question-item {
+}
+
+.question-plus {
+}
+
+.question-header {
+  color: var(--light-grey);
+}
+
+.estimate {
+}
+
+.estimate-title {
+  color: var(--white);
+}
+
+.estimate-form {
+}
+
+.estimate-label {
+}
+
+.estimate-text {
+  color: var(--light-grey);
+}
+
+.estimate-input {
+  background-color: inherit;
+  border: none;
+  border-bottom: var(--white-alifa-alifa) solid 1px;
+}
+
+.estimate-input::placeholder {
+  color: var(--light-grey);
+}
+
+.estimate-download {
+}
+
+.estimate-list {
+}
+
+.estimate-item {
+}
+
+.estimate-link {
+  color: var(--yellow);
+}
+
+.estimate-img {
+}
+
+.estimate-btn {
+  background-color: var(--yellow);
+  color: var(--dark-grey);
+}
+
+.contact {
+}
+
+.contact-title {
+  color: var(--white);
+}
+
+.contact-form {
+}
+
+.contact-label {
+  color: var(--white-alifa);
+}
+
+.contact-input {
+  background-color: inherit;
+  border: none;
+  border-bottom: var(--white-alifa-alifa) solid 1px;
+}
+
+.contact-input::placeholder {
+  color: var(--light-grey);
+}
+
+.contact-coment {
+  background-color: inherit;
+  border: none;
+  border-bottom: var(--white-alifa-alifa) solid 1px;
+}
+
+.contact-coment::placeholder {
+  color: var(--light-grey);
+}
+
+.contact-btn {
+  background-color: var(--yellow);
+  color: var(--dark-grey);
+}
+
+.contact-text {
+  color: var(--light-grey);
+}
+
+.contact-link {
+  color: var(--yellow);
+  text-decoration: underline;
+}
+
+.footer {
+}
+
+.footer-logo {
+}
+
+.footer-img {
+}
+
+.footer-text {
+  color: var(--white);
+}
+
+.footer-desc {
+  color: var(--light-grey);
+}
+
+.footer-tel {
+}
+
+.footer-phone {
+}
+
+.footer-num {
+  color: var(--light-grey);
+}
+
+.footer-list {
+}
+
+.footer-item {
+}
+
+.footer-link {
+  color: var(--light-grey);
+}
+
+.footer-networks {
+}
+
+.footer-network {
+}
+
+.footer-run {
+}
+
+.footer-icon {
+}
+
+.footer-line {
+  background-color: var(--white-alifa-alifa);
+}
+
+.footer-copyright {
+  color: var(--light-grey);
+}
