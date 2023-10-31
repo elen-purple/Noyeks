@@ -24,7 +24,7 @@ body {
   max-width: 1230px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: red dashed;
+  /* outline: red dashed; */
 }
 
 .header {
@@ -228,6 +228,12 @@ body {
   font-weight: 700;
   line-height: 1.2;
   text-transform: uppercase;
+  margin-bottom: 90px;
+}
+
+.kinds-wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
 .kinds-subtitle {
@@ -235,15 +241,34 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.4;
+  width: 344px;
 }
 
 .kinds-list {
+  display: flex;
+  width: 780px;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .kinds-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: var(--white-alifa-alifa) solid 1px;
+  padding-bottom: 30px;
+}
+
+.kinds-text {
+  width: 656px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .kinds-img {
+  width: 64px;
+  height: 64px;
 }
 
 .kinds-header {
