@@ -437,6 +437,8 @@ body {
 }
 
 .order {
+  padding-top: 120px;
+  padding-bottom: 80px;
 }
 
 .order-title {
@@ -446,6 +448,12 @@ body {
   font-weight: 700;
   line-height: 1.2;
   text-transform: uppercase;
+  margin-bottom: 90px;
+}
+
+.order-wrap {
+  display: flex;
+  justify-content: space-between;
 }
 
 .order-subtitle {
@@ -453,9 +461,14 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.4;
+  width: 344px;
 }
 
 .order-list {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  width: 785px;
 }
 
 .order-item {
