@@ -103,6 +103,7 @@ body {
   padding-bottom: 246px;
   background-image: url(../img/hero-background.jpg);
   background-repeat: cover;
+  background-repeat: no-repeat;
 }
 
 .hero-title {
@@ -166,6 +167,8 @@ body {
 }
 
 .survey {
+  padding-top: 160px;
+  padding-bottom: 80px;
 }
 
 .survey-title {
@@ -175,6 +178,16 @@ body {
   font-weight: 700;
   line-height: 1.2;
   text-transform: uppercase;
+  margin-bottom: 90px;
+}
+
+.survey-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.survey-wrap {
+  width: 780px;
 }
 
 .survey-subtitle {
@@ -182,6 +195,7 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.4;
+  width: 344px;
 }
 
 .survey-descs {
@@ -192,6 +206,7 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.6;
+  margin-bottom: 30px;
 }
 
 .survey-link {
@@ -203,6 +218,7 @@ body {
 }
 
 .kinds {
+  padding: 80px 0;
 }
 
 .kinds-title {
