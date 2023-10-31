@@ -565,12 +565,16 @@ body {
 }
 
 .about {
+  padding: 80px 0;
 }
 
 .about-list {
+  display: flex;
+  gap: 180px;
 }
 
 .about-item {
+  width: 420px;
 }
 
 .about-subtitle {
@@ -587,6 +591,8 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.6;
+  margin-top: 90px;
+  margin-bottom: 20px;
 }
 
 .about-link {
