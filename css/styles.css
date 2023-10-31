@@ -24,7 +24,7 @@ body {
   max-width: 1230px;
   padding: 0 15px;
   margin: 0 auto;
-  /* outline: red dashed; */
+  outline: red dashed;
 }
 
 .header {
@@ -295,6 +295,18 @@ body {
 }
 
 .quality {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.quality-wrapper {
+  display: flex;
+  gap: 153px;
+  padding-bottom: 68px;
+  border-bottom: var(--white-alifa-alifa) solid 1px;
+}
+
+.quality-text {
 }
 
 .quality-title {
@@ -304,6 +316,8 @@ body {
   font-weight: 700;
   line-height: 1.2;
   text-transform: uppercase;
+  margin-bottom: 30px;
+  width: 603px;
 }
 
 .quality-desc {
@@ -311,6 +325,10 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.6;
+  width: 687px;
+}
+
+.quality-wrap {
 }
 
 .quality-info {
@@ -318,6 +336,7 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.4;
+  width: 79px;
 }
 
 .quality-num {
@@ -328,14 +347,38 @@ body {
   line-height: 1;
 }
 
-.quality-line {
-  background-color: var(--white-alifa-alifa);
+.quality-menu {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .quality-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .quality-item {
+  padding-left: 30px;
+  display: inline-flex;
+}
+
+.quality-item:hover {
+  padding-left: 0;
+}
+
+.quality-item::before {
+  content: "";
+  background-color: var(--yellow);
+  width: 2px;
+  height: 34px;
+  display: none;
+  margin-right: 28px;
+}
+
+.quality-item:hover:before {
+  display: block;
 }
 
 .quality-btn {
@@ -351,6 +394,8 @@ body {
 }
 
 .quality-projs {
+  display: flex;
+  gap: 60px;
 }
 
 .quality-proj {
@@ -359,12 +404,20 @@ body {
 .quality-img {
 }
 
+.quality-content {
+  border-bottom: var(--white-alifa-alifa) solid 1px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
 .quality-subtitle {
   color: var(--white);
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 700;
   line-height: 1.4;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .quality-year {
@@ -374,16 +427,13 @@ body {
   line-height: 1.6;
 }
 
-.quality-underline {
-  background-color: var(--white-alifa-alifa);
-}
-
 .quality-link {
   color: var(--yellow);
   font-size: 14px;
   font-weight: 700;
   text-decoration-line: underline;
   text-transform: uppercase;
+  margin-top: 20px;
 }
 
 .order {
