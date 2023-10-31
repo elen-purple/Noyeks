@@ -10,30 +10,59 @@
   --dark-grey: #393939;
 }
 
+@font-face {
+  font-family: "НCourier New";
+  src: url("../courbd.ttf") format("ttf");
+}
+
 body {
+  font-family: "Courier New", Courier, monospace;
   background-color: var(--black);
 }
 
 .container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: red dashed;
 }
 
 .header {
+  padding: 26px 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
 }
 
 .header-logo {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-right: 53px;
 }
 
 .header-img {
+  width: 38px;
+  height: 77px;
 }
 
 .header-text {
   color: var(--white);
+  font-family: Montserrat;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .header-nav {
+  display: flex;
 }
 
 .header-list {
+  display: flex;
+  gap: 37px;
 }
 
 .header-item {
@@ -41,52 +70,99 @@ body {
 
 .header-link {
   color: var(--light-grey);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .header-tel {
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
+  align-items: center;
 }
 
 .header-icon {
+  width: 16px;
+  height: 16px;
 }
 
 .header-num {
   color: var(--light-grey);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .main {
 }
 
 .hero {
+  padding-top: 138px;
+  padding-bottom: 246px;
+  background-image: url(../img/hero-background.jpg);
+  background-repeat: cover;
 }
 
 .hero-title {
   color: var(--white);
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  width: 753px;
 }
 
 .hero-info {
   color: var(--grey);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 60px;
+  width: 780px;
+}
+
+.hero-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
 }
 
 .hero-list {
+  display: flex;
+  gap: 10px;
 }
 
 .hero-item {
 }
 
-.hero-link {
+.hero-btn {
   color: var(--black);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-sizing: border-box;
 }
 
-.hero-item:first-child .hero-link {
+.hero-item:first-child .hero-btn {
   background-color: var(--green);
+  padding: 15px 33.5px;
 }
 
-.hero-item:last-child .hero-link {
+.hero-item:last-child .hero-btn {
   background-color: var(--yellow);
+  padding: 15px 54.5px;
 }
 
 .hero-desc {
   color: var(--yellow);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+  width: 359px;
 }
 
 .survey {
@@ -94,10 +170,18 @@ body {
 
 .survey-title {
   color: var(--white);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .survey-subtitle {
   color: var(--yellow);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .survey-descs {
@@ -105,10 +189,17 @@ body {
 
 .survey-desc {
   color: var(--light-grey);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.6;
 }
 
 .survey-link {
   color: var(--yellow);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-transform: uppercase;
 }
 
 .kinds {
@@ -116,10 +207,18 @@ body {
 
 .kinds-title {
   color: var(--white);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .kinds-subtitle {
   color: var(--yellow);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .kinds-list {
@@ -133,14 +232,25 @@ body {
 
 .kinds-header {
   color: var(--white);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .kinds-desc {
   color: var(--light-grey);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.6;
 }
 
 .kinds-link {
   color: var(--yellow);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-transform: uppercase;
 }
 
 .quality {
@@ -148,18 +258,33 @@ body {
 
 .quality-title {
   color: var(--white);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .quality-desc {
   color: var(--light-grey);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.6;
 }
 
 .quality-info {
   color: var(--white-alifa);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .quality-num {
   color: var(--white);
+  font-family: Montserrat;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 1;
 }
 
 .quality-line {
@@ -174,9 +299,13 @@ body {
 
 .quality-btn {
   color: var(--white-alifa);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
-.quality-btn {
+.quality-btn:hover {
   color: var(--white);
 }
 
@@ -191,10 +320,17 @@ body {
 
 .quality-subtitle {
   color: var(--white);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .quality-year {
   color: var(--white-alifa);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.6;
 }
 
 .quality-underline {
@@ -203,6 +339,10 @@ body {
 
 .quality-link {
   color: var(--yellow);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-transform: uppercase;
 }
 
 .order {
@@ -210,10 +350,18 @@ body {
 
 .order-title {
   color: var(--white);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .order-subtitle {
   color: var(--yellow);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .order-list {
@@ -221,6 +369,9 @@ body {
 
 .order-item {
   color: var(--light-grey);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.6;
 }
 
 .how {
@@ -228,6 +379,11 @@ body {
 
 .how-title {
   color: var(--white);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .how-list {
@@ -238,6 +394,10 @@ body {
 
 .how-button {
   color: var(--white-alifa);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .how-button:hover {
@@ -259,16 +419,20 @@ body {
 
 .how-subtitle {
   color: var(--light-grey);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .how-info {
   color: var(--light-grey);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.6;
 }
 
 .about {
-}
-
-.about-title {
 }
 
 .about-list {
@@ -279,14 +443,26 @@ body {
 
 .about-subtitle {
   color: var(--white);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .about-desc {
   color: var(--light-grey);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.6;
 }
 
 .about-link {
   color: var(--yellow);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-transform: uppercase;
 }
 
 .goals {
@@ -294,6 +470,11 @@ body {
 
 .goals-title {
   color: var(--white);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .goals-list {
@@ -304,10 +485,17 @@ body {
 
 .goals-subtitle {
   color: var(--white);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .goals-desc {
   color: var(--light-grey);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.6;
 }
 
 .necessity {
@@ -315,6 +503,11 @@ body {
 
 .necessity-title {
   color: var(--white);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .necessity-img {
@@ -323,6 +516,9 @@ body {
 .necessity-desc {
   color: var(--light-grey);
   background-color: #1f1f1f;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.6;
 }
 
 .level {
@@ -330,10 +526,18 @@ body {
 
 .level-title {
   color: var(--white);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .level-subtitle {
   color: var(--yellow);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .level-list {
@@ -344,10 +548,17 @@ body {
 
 .level-header {
   color: var(--light-grey);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 140%;
 }
 
 .level-desc {
   color: var(--light-grey);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .question {
@@ -355,10 +566,18 @@ body {
 
 .question-title {
   color: var(--white);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .question-subtitle {
   color: var(--yellow);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .question-list {
@@ -372,6 +591,10 @@ body {
 
 .question-header {
   color: var(--light-grey);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .estimate {
@@ -379,6 +602,11 @@ body {
 
 .estimate-title {
   color: var(--white);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .estimate-form {
@@ -389,16 +617,29 @@ body {
 
 .estimate-text {
   color: var(--light-grey);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .estimate-input {
   background-color: inherit;
   border: none;
   border-bottom: var(--white-alifa-alifa) solid 1px;
+  color: var(--light-grey);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .estimate-input::placeholder {
   color: var(--light-grey);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .estimate-download {
@@ -412,6 +653,10 @@ body {
 
 .estimate-link {
   color: var(--yellow);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-decoration-line: underline;
 }
 
 .estimate-img {
@@ -420,6 +665,9 @@ body {
 .estimate-btn {
   background-color: var(--yellow);
   color: var(--dark-grey);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .contact {
@@ -427,6 +675,11 @@ body {
 
 .contact-title {
   color: var(--white);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .contact-form {
@@ -434,40 +687,72 @@ body {
 
 .contact-label {
   color: var(--white-alifa);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .contact-input {
   background-color: inherit;
   border: none;
   border-bottom: var(--white-alifa-alifa) solid 1px;
+  color: var(--light-grey);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .contact-input::placeholder {
   color: var(--light-grey);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .contact-coment {
   background-color: inherit;
   border: none;
   border-bottom: var(--white-alifa-alifa) solid 1px;
+  color: var(--light-grey);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .contact-coment::placeholder {
   color: var(--light-grey);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .contact-btn {
   background-color: var(--yellow);
   color: var(--dark-grey);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .contact-text {
   color: var(--light-grey);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .contact-link {
   color: var(--yellow);
-  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-decoration-line: underline;
 }
 
 .footer {
@@ -481,10 +766,17 @@ body {
 
 .footer-text {
   color: var(--white);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .footer-desc {
   color: var(--light-grey);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .footer-tel {
@@ -495,6 +787,9 @@ body {
 
 .footer-num {
   color: var(--light-grey);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .footer-list {
@@ -505,6 +800,10 @@ body {
 
 .footer-link {
   color: var(--light-grey);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .footer-networks {
@@ -525,4 +824,8 @@ body {
 
 .footer-copyright {
   color: var(--light-grey);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
 }
