@@ -746,6 +746,8 @@ body {
 }
 
 .question {
+  padding-top: 80px;
+  padding-bottom: 60px;
 }
 
 .question-title {
@@ -755,6 +757,12 @@ body {
   font-weight: 700;
   line-height: 1.2;
   text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.question-wrap {
+  display: flex;
+  justify-content: space-between;
 }
 
 .question-subtitle {
@@ -762,15 +770,27 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.4;
+  width: 238px;
 }
 
 .question-list {
+  width: 780px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .question-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: var(--white-alifa-alifa) 1px solid;
 }
 
 .question-plus {
+  width: 16px;
+  height: 16px;
 }
 
 .question-header {
