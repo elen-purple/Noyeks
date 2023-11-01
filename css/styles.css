@@ -650,6 +650,8 @@ body {
 }
 
 .necessity {
+  padding-top: 80px;
+  padding-bottom: 110px;
 }
 
 .necessity-title {
@@ -659,14 +661,27 @@ body {
   font-weight: 700;
   line-height: 1.2;
   text-transform: uppercase;
+  width: 656px;
+  margin-bottom: 90px;
+}
+
+.necessity-wrap {
+  display: flex;
 }
 
 .necessity-img {
 }
 
+.necessity-descs {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  padding: 30px 50px 26px;
+  background-color: #1f1f1f;
+}
+
 .necessity-desc {
   color: var(--light-grey);
-  background-color: #1f1f1f;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.6;
