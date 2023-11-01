@@ -802,6 +802,7 @@ body {
 }
 
 .estimate {
+  padding: 60px 0;
 }
 
 .estimate-title {
@@ -811,12 +812,15 @@ body {
   font-weight: 700;
   line-height: 1.2;
   text-transform: uppercase;
+  margin-bottom: 60px;
+  width: 508px;
 }
 
 .estimate-form {
 }
 
 .estimate-label {
+  display: flex;
 }
 
 .estimate-text {
@@ -825,6 +829,16 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.4;
+}
+
+.estimate-text:nth-child(2) {
+  margin-left: auto;
+  margin-right: 60px;
+}
+
+.estimate-label .estimate-text:nth-child(2) {
+  align-self: center;
+  height: 25px;
 }
 
 .estimate-input {
@@ -836,6 +850,9 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.4;
+  text-align: end;
+  width: 360px;
+  padding-bottom: 10px;
 }
 
 .estimate-input::placeholder {
@@ -844,15 +861,48 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.4;
+  text-align: start;
+}
+
+.estimate-wrapper {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: -5px;
+}
+
+.estimate-wrapper .estimate-text:first-child {
+  width: 315px;
 }
 
 .estimate-download {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  height: 25px;
+}
+
+.estimate-download .estimate-text {
+  padding-right: 161px;
+  margin: 0;
+}
+
+.estimate-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
 
 .estimate-list {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .estimate-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .estimate-link {
@@ -864,6 +914,8 @@ body {
 }
 
 .estimate-img {
+  width: 14px;
+  height: 14px;
 }
 
 .estimate-btn {
@@ -872,6 +924,10 @@ body {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
+  text-align: start;
+  margin-right: 150px;
+  padding: 15px 37.5px;
+  margin-top: 40px;
 }
 
 .contact {
