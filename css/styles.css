@@ -931,6 +931,8 @@ body {
 }
 
 .contact {
+  padding-top: 60px;
+  padding-bottom: 80px;
 }
 
 .contact-title {
@@ -940,9 +942,19 @@ body {
   font-weight: 700;
   line-height: 1.2;
   text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.contact-wrap {
+  display: flex;
 }
 
 .contact-form {
+  margin-left: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-right: 60px;
 }
 
 .contact-label {
@@ -951,6 +963,8 @@ body {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.4;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-input {
@@ -962,6 +976,9 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.4;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  width: 360px;
 }
 
 .contact-input::placeholder {
@@ -981,6 +998,9 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.4;
+  height: 36px;
+  width: 360px;
+  margin-top: 10px;
 }
 
 .contact-coment::placeholder {
@@ -998,6 +1018,14 @@ body {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
+  width: 210px;
+  padding: 15px 0;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .contact-text {
