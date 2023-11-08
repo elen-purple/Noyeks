@@ -27,6 +27,12 @@ body {
   /* outline: red dashed; */
 }
 
+/**
+  |============================
+  | header
+  |============================
+*/
+
 .header {
   padding: 26px 0;
 }
@@ -95,8 +101,20 @@ body {
   line-height: 1.4;
 }
 
+/**
+  |============================
+  | main
+  |============================
+*/
+
 .main {
 }
+
+/**
+  |============================
+  | hero
+  |============================
+*/
 
 .hero {
   padding-top: 138px;
@@ -166,6 +184,12 @@ body {
   width: 359px;
 }
 
+/**
+  |============================
+  | survey
+  |============================
+*/
+
 .survey {
   padding-top: 160px;
   padding-bottom: 80px;
@@ -216,6 +240,12 @@ body {
   text-decoration-line: underline;
   text-transform: uppercase;
 }
+
+/**
+  |============================
+  | kinds
+  |============================
+*/
 
 .kinds {
   padding: 80px 0;
@@ -293,6 +323,12 @@ body {
   text-decoration-line: underline;
   text-transform: uppercase;
 }
+
+/**
+  |============================
+  | quality
+  |============================
+*/
 
 .quality {
   padding-top: 80px;
@@ -436,6 +472,12 @@ body {
   margin-top: 20px;
 }
 
+/**
+  |============================
+  | order
+  |============================
+*/
+
 .order {
   padding-top: 120px;
   padding-bottom: 80px;
@@ -477,6 +519,12 @@ body {
   font-weight: 700;
   line-height: 1.6;
 }
+
+/**
+  |============================
+  | how
+  |============================
+*/
 
 .how {
   padding: 80px 0;
@@ -564,6 +612,12 @@ body {
   line-height: 1.6;
 }
 
+/**
+  |============================
+  | about
+  |============================
+*/
+
 .about {
   padding: 80px 0;
 }
@@ -602,6 +656,12 @@ body {
   text-decoration-line: underline;
   text-transform: uppercase;
 }
+
+/**
+  |============================
+  | goals
+  |============================
+*/
 
 .goals {
   padding: 80px 0;
@@ -649,6 +709,12 @@ body {
   width: 780px;
 }
 
+/**
+  |============================
+  | necessity
+  |============================
+*/
+
 .necessity {
   padding-top: 80px;
   padding-bottom: 110px;
@@ -686,6 +752,12 @@ body {
   font-weight: 700;
   line-height: 1.6;
 }
+
+/**
+  |============================
+  | level
+  |============================
+*/
 
 .level {
   padding-top: 110px;
@@ -745,6 +817,12 @@ body {
   line-height: 1.4;
 }
 
+/**
+  |============================
+  | question
+  |============================
+*/
+
 .question {
   padding-top: 80px;
   padding-bottom: 60px;
@@ -800,6 +878,12 @@ body {
   font-weight: 700;
   line-height: 1.4;
 }
+
+/**
+  |============================
+  | ectimate
+  |============================
+*/
 
 .estimate {
   padding: 60px 0;
@@ -930,6 +1014,12 @@ body {
   margin-top: 40px;
 }
 
+/**
+  |============================
+  | contact
+  |============================
+*/
+
 .contact {
   padding-top: 60px;
   padding-bottom: 180px;
@@ -1042,6 +1132,12 @@ body {
   line-height: 1.4;
   text-decoration-line: underline;
 }
+
+/**
+  |============================
+  | footer
+  |============================
+*/
 
 .footer {
   padding-bottom: 32px;

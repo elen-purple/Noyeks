@@ -3,7 +3,8 @@ h2,
 h3,
 h4,
 p,
-hr {
+hr,
+body {
   margin: 0;
 }
 
