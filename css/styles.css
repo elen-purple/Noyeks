@@ -119,7 +119,7 @@ body {
 .hero {
   padding-top: 138px;
   padding-bottom: 246px;
-  background-image: url(../img/hero-background.jpg);
+  background-image: url(../img/index/hero-background.webp);
   background-repeat: cover;
   background-repeat: no-repeat;
 }
@@ -866,9 +866,17 @@ body {
   border-bottom: var(--white-alifa-alifa) 1px solid;
 }
 
-.question-plus {
+.question-item::before {
+  content: "";
+  display: block;
+  background-image: url(../img/index/plus.webp);
   width: 16px;
   height: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.question-plus {
 }
 
 .question-header {
