@@ -20,6 +20,11 @@ body {
   background-color: var(--black);
 }
 
+*::selection {
+  background-color: var(--dark-grey);
+  color: var(--light-grey);
+}
+
 .container {
   max-width: 1230px;
   padding: 0 15px;
@@ -185,27 +190,107 @@ body {
 }
 
 .know {
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+
+.know-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .know-subtitle {
+  margin-top: 10px;
+  color: var(--yellow);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+  width: 255px;
+}
+
+.know-wrap {
+  width: 885px;
 }
 
 .know-title {
+  color: var(--white);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  width: 640px;
 }
 
 .know-desc {
+  color: var(--light-grey);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  width: 716px;
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 .know-list {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .know-item {
+  width: 255px;
+  box-sizing: content-box;
+}
+
+.know-item:first-child {
+  padding-bottom: 29px;
+  border-bottom: var(--white-alifa-alifa) 1px solid;
+  padding-right: 10px;
+  border-right: var(--white-alifa-alifa) 1px solid;
+}
+
+.know-item:nth-child(2) {
+  padding-bottom: 29px;
+  border-bottom: var(--white-alifa-alifa) 1px solid;
+  padding-right: 10px;
+  border-right: var(--white-alifa-alifa) 1px solid;
+  padding-left: 49px;
+}
+
+.know-item:nth-child(3) {
+  padding-bottom: 29px;
+  border-bottom: var(--white-alifa-alifa) 1px solid;
+  padding-left: 49px;
+}
+
+.know-item:nth-child(4) {
+  border-right: var(--white-alifa-alifa) 1px solid;
+  padding-top: 30px;
+  padding-right: 10px;
+}
+
+.know-item:nth-child(5) {
+  border-right: var(--white-alifa-alifa) 1px solid;
+  padding-top: 30px;
+  padding-right: 10px;
+  padding-left: 49px;
 }
 
 .know-num {
+  color: var(--light-grey);
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .know-text {
+  color: var(--light-grey);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
 }
 
 .scheme {

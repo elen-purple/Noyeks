@@ -20,6 +20,11 @@ body {
   background-color: var(--black);
 }
 
+*::selection {
+  background-color: var(--dark-grey);
+  color: var(--light-grey);
+}
+
 .container {
   max-width: 1230px;
   padding: 0 15px;
