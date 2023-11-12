@@ -294,21 +294,65 @@ body {
 }
 
 .scheme {
+  padding: 80px 0;
 }
 
 .scheme-subtitle {
+  color: var(--yellow);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+  width: 255px;
+  margin-top: 10px;
+}
+
+.scheme-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .scheme-title {
+  color: var(--white);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  width: 640px;
+  margin-bottom: 60px;
 }
 
 .scheme-list {
+  width: 780px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .scheme-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: var(--white-alifa-alifa) 1px solid;
+}
+
+.scheme-item::before {
+  content: "";
+  display: block;
+  background-image: url(../img/index/plus.webp);
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .scheme-header {
+  color: var(--light-grey);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.4;
 }
 
 .advantages {
