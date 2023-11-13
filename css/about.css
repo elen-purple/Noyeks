@@ -356,43 +356,114 @@ body {
 }
 
 .advantages {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.advantages-wrap {
+  display: flex;
+  margin-bottom: 60px;
 }
 
 .advantages-subtitle {
+  color: var(--yellow);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-right: 60px;
 }
 
 .advantages-title {
+  color: var(--white);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  width: 432px;
 }
+
 .advantages-lists {
 }
+
 .advantages-items {
+  padding-bottom: 60px;
+  border-bottom: var(--white-alifa-alifa) 1px solid;
+  margin-bottom: 60px;
+  display: flex;
 }
+
+.advantages-items:first-child {
+  padding-top: 60px;
+  border-top: var(--white-alifa-alifa) 1px solid;
+}
+
 .advantages-header {
+  color: var(--light-grey);
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
 }
+
 .advantages-list {
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
 }
+
 .advantages-item {
+  padding: 20px;
+  border: #1f1f1f 1px solid;
 }
+
+.advantages-item:first-child {
+  width: 362px;
+}
+
+.advantages-item:last-child {
+  width: 514px;
+}
+
 .advantages-caption {
+  color: var(--light-grey);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.4;
 }
+
 .advantages-desc {
+  color: var(--light-grey);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
 }
+
 .certificates {
 }
+
 .certificates-list {
 }
+
 .certificates-item {
 }
+
 .certificates-img {
 }
+
 .certificates-header {
 }
+
 .certificates-link {
 }
+
 .certificates-btn {
 }
+
 .certificates-text {
 }
+
 .certificates-icon {
 }
 
