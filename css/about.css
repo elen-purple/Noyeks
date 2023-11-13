@@ -29,7 +29,7 @@ body {
   max-width: 1230px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: red dashed;
+  /* outline: red dashed; */
 }
 
 /**
@@ -371,6 +371,7 @@ body {
   font-weight: 700;
   line-height: 1.4;
   margin-right: 60px;
+  margin-top: 10px;
 }
 
 .advantages-title {
@@ -441,30 +442,87 @@ body {
 }
 
 .certificates {
+  padding-top: 60px;
+  padding-bottom: 160px;
+}
+
+.certificates-wrap {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.certificates-subtitle {
+  color: var(--yellow);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.4;
+  width: 255px;
+  margin-right: 60px;
+  margin-top: 10px;
+}
+
+.certificates-title {
+  color: var(--white);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  width: 404px;
 }
 
 .certificates-list {
+  display: flex;
+  justify-content: space-between;
 }
 
 .certificates-item {
+  padding: 40px;
+  border: var(--white-alifa-alifa) 1px solid;
 }
 
 .certificates-img {
 }
 
 .certificates-header {
+  color: var(--grey);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.4;
+  width: 320px;
+  height: 68px;
+  margin: 20px 0;
 }
 
 .certificates-link {
+  color: var(--yellow);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-transform: uppercase;
 }
 
 .certificates-btn {
+  background-color: var(--yellow);
+  display: flex;
+  gap: 10px;
+  padding: 15px 30px;
+  margin: 0 auto;
+  margin-top: 60px;
 }
 
 .certificates-text {
+  color: #1f1f1f;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .certificates-icon {
+  width: 12px;
+  height: 12px;
 }
 
 /**
