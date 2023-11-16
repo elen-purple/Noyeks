@@ -402,7 +402,7 @@ body {
 
 .quality-item {
   padding-left: 30px;
-  display: inline-flex;
+  display: flex;
 }
 
 .quality-item:hover {
