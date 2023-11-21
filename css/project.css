@@ -134,7 +134,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding-bottom: 60px;
-  border-bottom: var(--white-alifa-alifa) 1px solid;
+  border-bottom: var(--white-alifa-alifa) 2px solid;
   margin-bottom: 60px;
 }
 

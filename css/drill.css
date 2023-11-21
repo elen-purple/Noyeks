@@ -29,7 +29,7 @@ body {
   max-width: 1230px;
   padding: 0 15px;
   margin: 0 auto;
-  /* outline: red dashed; */
+  outline: red dashed;
 }
 
 /**
@@ -119,21 +119,21 @@ body {
 .main {
 }
 
-.services {
+.drill {
   padding-top: 60px;
   padding-bottom: 160px;
 }
 
-.services-wrap {
+.drill-wrapp {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   padding-bottom: 60px;
   border-bottom: var(--white-alifa-alifa) 2px solid;
   margin-bottom: 60px;
 }
 
-.services-title {
+.drill-title {
   color: var(--light-grey);
   font-family: Montserrat;
   font-size: 48px;
@@ -142,105 +142,230 @@ body {
   text-transform: uppercase;
 }
 
-.services-back {
+.drill-back {
   color: var(--light-grey);
   font-size: 18px;
   font-weight: 700;
   line-height: 1.4;
 }
 
-.services-wrapper {
-  display: flex;
-  justify-content: space-between;
+.drill-subtitle {
+  color: var(--white);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
-.services-list {
+.drill-price {
+  color: var(--yellow);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 40px;
+}
+
+.drill-img {
+}
+
+.drill-wraer {
+  display: flex;
+  gap: 68px;
+  margin-top: 40px;
+}
+
+.drill-buttons {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  margin-top: 4px;
 }
 
-.services-item {
-  padding-left: 20px;
+.drill-button {
+  padding-left: 22px;
   display: flex;
-  height: 50px;
+  height: 22px;
 }
 
-.services-item:hover {
+.drill-button:hover {
   padding-left: 0;
 }
 
-.services-item::before {
+.drill-button::before {
   content: "";
   background-color: var(--yellow);
   width: 2px;
-  height: 50px;
+  height: 22px;
   display: none;
-  margin-right: 18px;
+  margin-right: 20px;
 }
 
-.services-item:hover:before {
+.drill-button:hover:before {
   display: block;
 }
 
-.services-btn {
+.drill-btn {
   color: var(--white-alifa-alifa);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 1.4;
+  width: 330px;
   text-align: start;
-  width: 340px;
 }
 
-.services-btn:hover {
+.drill-btn:hover {
   color: var(--white);
 }
 
-.services-wrapp {
-}
-
-.services-services {
-}
-
-.services-service {
+.drill-list {
   display: flex;
-  justify-content: space-between;
-  padding-bottom: 30px;
-  border-bottom: var(--white-alifa-alifa) 1px solid;
-  margin-bottom: 30px;
+  flex-direction: column;
+  gap: 40px;
   width: 780px;
-  align-items: center;
+  margin-bottom: 40px;
 }
 
-.services-service:last-child {
-  margin-bottom: 0;
+.drill-item {
 }
 
-.services-subtitle {
-  color: var(--light-grey);
+.drill-header {
+  color: var(--white);
   font-family: Montserrat;
   font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.drill-descs {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.drill-desc {
+  color: var(--light-grey);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--light-grey);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.drill-discs {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.drill-disc {
+  color: var(--light-grey);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.drill-wrap {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.drill-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-right: 60px;
+}
+
+.drill-label {
+  display: flex;
+  flex-direction: column;
+  color: var(--white-alifa);
+  font-family: Montserrat;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.4;
+}
+
+.drill-input {
+  background-color: inherit;
+  border: none;
+  border-bottom: var(--white-alifa-alifa) solid 1px;
+  margin-top: 10px;
+  padding-bottom: 10px;
   width: 360px;
+  color: var(--light-grey);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4;
 }
 
-.services-link {
-  color: var(--yellow);
-  font-size: 14px;
+.drill-input::placeholder {
+  color: var(--light-grey);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.drill-coment {
+  background-color: inherit;
+  border: none;
+  border-bottom: var(--white-alifa-alifa) solid 1px;
+  color: var(--light-grey);
+  font-family: Montserrat;
+  font-size: 18px;
   font-weight: 700;
-  text-decoration-line: underline;
-  text-transform: uppercase;
+  line-height: 1.4;
+  height: 36px;
+  width: 360px;
+  margin-top: 10px;
 }
 
-.services-button {
-  padding: 15px 44px;
+.drill-coment::placeholder {
+  color: var(--light-grey);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.drill-submit {
   background-color: var(--yellow);
-  color: #1f1f1f;
+  color: var(--dark-grey);
+  text-align: center;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 60px;
+  width: 210px;
+  padding: 15px 0;
+}
+
+.drill-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.drill-text {
+  color: var(--light-grey);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.drill-link {
+  color: var(--yellow);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-decoration-line: underline;
 }
 
 /**
