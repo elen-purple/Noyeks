@@ -11,7 +11,7 @@
 }
 
 @font-face {
-  font-family: "НCourier New";
+  font-family: "Courier New";
   src: url("../courbd.ttf") format("ttf");
 }
 
@@ -29,7 +29,7 @@ body {
   max-width: 1230px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: red dashed;
+  /* outline: red dashed; */
 }
 
 /**
