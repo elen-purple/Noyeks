@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Проекты</title>
+    <title>Цены</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,7 +18,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/project.css" />
+    <link rel="stylesheet" href="./css/articles.css" />
     <link rel="hortcut icon" href="./img/label.svg" />
   </head>
   <body>
@@ -35,21 +35,21 @@
         <nav class="header-nav">
           <ul class="header-list">
             <li class="header-item">
-              <a href="./project.html" class="header-link header-link-active">
-                Проекты
-              </a>
+              <a href="./project.html" class="header-link"> Проекты </a>
             </li>
             <li class="header-item">
               <a href="./about.html" class="header-link">О нас</a>
             </li>
             <li class="header-item">
-              <a href="./services.html" class="header-link">Услуги</a>
+              <a href="./services.html" class="header-link"> Услуги </a>
             </li>
             <li class="header-item">
               <a href="./price.html" class="header-link">Цены</a>
             </li>
             <li class="header-item">
-              <a href="./articles.html" class="header-link">Статьи</a>
+              <a href="./articles.html" class="header-link header-link-active"
+                >Статьи</a
+              >
             </li>
             <li class="header-item">
               <a href="./vacancies.html" class="header-link">Вакансии</a>
@@ -66,128 +66,64 @@
       </div>
     </header>
     <main class="main">
-      <section class="project">
+      <section class="articles">
         <div class="container">
-          <div class="project-wrap">
-            <h1 class="project-title">ПРоекты</h1>
-            <!-- додати стрілку -->
-            <a href="./index.html" class="project-back">На главную</a>
+          <div class="articles-wrap">
+            <h1 class="articles-title">Статьи</h1>
+            <a href="./index.html" class="article-back">На главную</a>
           </div>
-          <ul class="project-buttons">
-            <li class="project-button">
-              <button class="project-btn">За все время</button>
+          <ul class="articles-list">
+            <li class="articles-item">
+              <img
+                src="./img/articles/articles-1.webp"
+                alt="articles 1"
+                class="articles-img"
+              />
+              <h2 class="articles-subtitle">
+                Наши преимущества при инженерно-экологических изысканиях
+              </h2>
+              <p class="articles-desc">
+                Выбрав нашу компанию для проведения инженерно-экологических
+                изысканий вы получаете следующие преимущества...
+              </p>
+              <a href="" class="articles-link">Подробнее</a>
             </li>
-            <li class="project-button">
-              <button class="project-btn">2010-2020</button>
+            <li class="articles-item">
+              <img
+                src="./img/articles/articles-2.webp"
+                alt="articles 2"
+                class="articles-img"
+              />
+              <h2 class="articles-subtitle">
+                Инженерно-геологические изыскания для высотного строительства на
+                территории...
+              </h2>
+              <p class="articles-desc">
+                Вы можете получить бесплатную консультацию по вопросам изысканий
+                для высотного объекта. Узнайте почему для геологических
+                изысканий в Москве клиенты...
+              </p>
+              <a href="" class="articles-link">Подробнее</a>
             </li>
-            <li class="project-button">
-              <button class="project-btn">2000-2010</button>
-            </li>
-            <li class="project-button">
-              <button class="project-btn">1990-2000</button>
+            <li class="articles-item">
+              <img
+                src="./img/articles/articles-3.webp"
+                alt="articles 3"
+                class="articles-img"
+              />
+              <h2 class="articles-subtitle">
+                Геологические изыскания при строительстве сооружений ММДЦ
+                «Москва-Сити»
+              </h2>
+              <p class="articles-desc">
+                Комплекс подземных конструкций ММДЦ «Москва-Сити» представляет
+                собой сложную систему, все элементы которого технологически
+                увязаны друг с другом. Высотны...
+              </p>
+              <a href="" class="articles-link">Подробнее</a>
             </li>
           </ul>
-          <ul class="project-list">
-            <li class="project-item">
-              <p class="project-year">1993-2015</p>
-              <img
-                src="./img/project/proj-1.webp"
-                alt="project 1"
-                class="project-img"
-              />
-              <div class="project-text">
-                <h3 class="project-subtitle">Москва-Сити</h3>
-                <p class="project-desc">
-                  Оказание полного спектра услуг на двенадцати основных объектах
-                  комплекса «Москва сити
-                </p>
-                <a href="./moskva-siti.html" class="project-link">Подробнее</a>
-              </div>
-            </li>
-            <li class="project-item">
-              <p class="project-year">2013-2014</p>
-              <img
-                src="./img/project/proj-2.webp"
-                alt="project 2"
-                class="project-img"
-              />
-              <div class="project-text">
-                <h3 class="project-subtitle">АТК на Кутузовском</h3>
-                <p class="project-desc">
-                  Актуализация инженерно-геологических изысканий на участке
-                  строительства административно-торгового комплекса
-                </p>
-                <a href="" class="project-link">Подробнее</a>
-              </div>
-            </li>
-            <li class="project-item">
-              <p class="project-year">2012</p>
-              <img
-                src="./img/project/proj-3.webp"
-                alt="project 3"
-                class="project-img"
-              />
-              <div class="project-text">
-                <h3 class="project-subtitle">Завод ЗИЛ</h3>
-                <p class="project-desc">
-                  Реконструкция легендарного автогиганта, завода «ЗИЛ» Бурение
-                  инженерно-геологических скеважин до глубины 70 м,
-                  геофизические исследования
-                </p>
-                <a href="" class="project-link">Подробнее</a>
-              </div>
-            </li>
-            <li class="project-item">
-              <p class="project-year">2012-2013</p>
-              <img
-                src="./img/project/proj-4.webp"
-                alt="project 4"
-                class="project-img"
-              />
-              <div class="project-text">
-                <h3 class="project-subtitle">Станция Окская</h3>
-                <p class="project-desc">
-                  Бурение, геофизический каротаж, грунтовые и штамповые
-                  испытания, оборудование скважин, опытно-фильтрационные работы,
-                  лабораторные исследования, моделирование
-                </p>
-                <a href="" class="project-link">Подробнее</a>
-              </div>
-            </li>
-            <li class="project-item">
-              <p class="project-year">2010-2011</p>
-              <img
-                src="./img/project/proj-5.webp"
-                alt="project 5"
-                class="project-img"
-              />
-              <div class="project-text">
-                <h3 class="project-subtitle">ТРК Авиапарк</h3>
-                <p class="project-desc">
-                  Бурение, испытания грунтов методами статического зондирования,
-                  штамповые испытания, лабораторные исследования
-                </p>
-                <a href="" class="project-link">Подробнее</a>
-              </div>
-            </li>
-            <li class="project-item">
-              <p class="project-year">2007-2010</p>
-              <img
-                src="./img/project/proj-6.webp"
-                alt="project 6"
-                class="project-img"
-              />
-              <div class="project-text">
-                <h3 class="project-subtitle">Стадион Спартак</h3>
-                <p class="project-desc">
-                  Инженерно-геологические изыскания, в результате которых
-                  приняты и воплощаются в жизнь оригинальные архитектурные и
-                  инженерные решения
-                </p>
-                <a href="" class="project-link">Подробнее</a>
-              </div>
-            </li>
-          </ul>
+          <!-- додати стрілки -->
         </div>
       </section>
     </main>
@@ -197,6 +133,8 @@
           <div class="footer-wrap">
             <a href="./index.html" class="footer-logo">
               <img
+                width="24"
+                height="49"
                 src="./img/index/footer-logo.webp"
                 alt="letter N"
                 class="footer-img"

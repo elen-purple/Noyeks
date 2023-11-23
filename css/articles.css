@@ -119,21 +119,21 @@ body {
 .main {
 }
 
-.price {
+.articles {
   padding-top: 60px;
-  padding-bottom: 210px;
+  padding-bottom: 160px;
 }
 
-.price-wrap {
+.articles-wrap {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   padding-bottom: 60px;
-  border-bottom: 2px solid var(--white-alifa-alifa);
-  margin-bottom: 60px;
+  border-bottom: var(--white-alifa-alifa) 2px solid;
+  margin-bottom: 50px;
 }
 
-.price-tile {
+.articles-title {
   color: var(--light-grey);
   font-family: Montserrat;
   font-size: 48px;
@@ -142,57 +142,51 @@ body {
   text-transform: uppercase;
 }
 
-.price-back {
+.article-back {
   color: var(--light-grey);
   font-size: 18px;
   font-weight: 700;
   line-height: 1.4;
 }
 
-.price-list {
+.articles-list {
+  display: flex;
+  justify-content: space-between;
 }
 
-.price-item {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  padding-bottom: 20px;
-  border-bottom: var(--white-alifa-alifa) 1px solid;
+.articles-item {
+  padding: 19px;
+  border: var(--white-alifa-alifa) 1px solid;
+  width: 360px;
+}
+
+.articles-img {
+}
+
+.articles-subtitle {
+  color: var(--light-grey);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.articles-desc {
+  color: var(--light-grey);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
   margin-bottom: 20px;
 }
 
-.price-item:last-child {
-  margin-bottom: 0;
-}
-
-.price-item::before {
-  content: "";
-  display: block;
-  width: 16px;
-  height: 16px;
-  background-image: url(../img/index/plus.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.price-subtitle {
-  color: var(--light-grey);
-  font-family: Montserrat;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 1.4;
-}
-
-.price-btn {
-  padding: 12px 44px;
-  background-color: var(--yellow);
-  color: #1f1f1f;
+.articles-link {
+  color: var(--yellow);
   font-size: 14px;
   font-weight: 700;
+  text-decoration-line: underline;
   text-transform: uppercase;
-  margin: 0 auto;
-  margin-top: 60px;
-  display: block;
 }
 
 /**
